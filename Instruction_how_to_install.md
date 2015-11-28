@@ -77,7 +77,7 @@ Create a new file here containing the following script:
   
 Save this file as vncboot and make this file executetable:
   
-  chmod 755 vncboot
+    chmod 755 vncboot
   
 check your file to execute file like vncboot on your command :
   
