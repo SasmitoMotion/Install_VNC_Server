@@ -42,9 +42,9 @@ To run at boot and log into a terminal on the Pi as root:
 
     sudo su
   
-Navigate file to the directory /etc/init.d/:
+Navigate file to the directory /etc/init.d/ and make file :
 
-    cd /etc/init.d/
+    sudo nano /etc/init.d/vncboot
   
 Create a new file here containing the following script:
 
@@ -88,7 +88,7 @@ Create a new file here containing the following script:
   
 Save this file as vncboot and make this file executetable:
   
-    chmod 755 vncboot
+    chmod 755 /etc/init.d/vncboot
   
 check your file to execute file like vncboot on your command :
   
