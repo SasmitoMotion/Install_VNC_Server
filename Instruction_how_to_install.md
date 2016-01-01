@@ -9,6 +9,8 @@ On your Pi (using a monitor or via SSH), install the TightVNC package:
 Now, on your computer, install and run the VNC client and on a Linux machine install the package xtightvncviewer:
 
     sudo apt-get install xtightvncviewer
+    sudo apt-get update
+    sudo apt-get upgrade
     
 Next, run TightVNC Server which will prompt you to enter a password and an optional view-only password:
 
