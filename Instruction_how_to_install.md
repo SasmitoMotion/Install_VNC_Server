@@ -5,6 +5,11 @@ On your Pi (using a monitor or via SSH), install the TightVNC package:
 
     sudo apt-get install tightvncserver
   
+
+Now, on your computer, install and run the VNC client and on a Linux machine install the package xtightvncviewer:
+
+    sudo apt-get install xtightvncviewer
+    
 Next, run TightVNC Server which will prompt you to enter a password and an optional view-only password:
 
     tightvncserver
@@ -13,9 +18,6 @@ Start a VNC server from the terminal. This example starts a session on VNC displ
 
     vncserver :0 -geometry 1920x1080 -depth 24
   
-Now, on your computer, install and run the VNC client and on a Linux machine install the package xtightvncviewer:
-
-    sudo apt-get install xtightvncviewer
   
 Create a file containing the following shell script to run VNC Server for your Raspberry Pi:
 
